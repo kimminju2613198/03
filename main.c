@@ -2,13 +2,15 @@
 
 int main(void)
 {
-    char c, i;
+    float a, b;
 
-    printf("enter a character:");
-    scanf("%c", &c);
+    printf("enter the numerator : ");
+    scanf("%f", &a);
 
-    i=c+1;
-    printf("The input character of %c (%d) is %c (%d)\n", c, c, i, i);
+    printf("Enter the denominator : ");
+    scanf("%f", &b);
+
+    printf("division is %f \n", a / b);
 
     return 0;
 }
